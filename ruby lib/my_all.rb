@@ -1,4 +1,4 @@
-def my_all?()
+def my_all?([1,2,3]) {|1| 1 < 2}
   i == 0
   block_returns_values = [true, false, false]
   while i < collection.length
