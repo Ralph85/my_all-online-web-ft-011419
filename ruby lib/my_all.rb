@@ -1,6 +1,6 @@
 my_all?([1,2,3]) {|i| i < 4}
   #=> true
-  i == 0
+  i == 4
   block_returns_values = [true, false, false]
   while i < collection.length
     block_returns_values << yield(collection[i])
